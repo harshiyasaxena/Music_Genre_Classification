@@ -1,0 +1,27 @@
+Data/
+# Ignore virtual environment
+venv310/
+
+# Ignore data and test folders (optional, depending on size)
+Data/
+Test/
+Test_Music/
+
+# Ignore model files
+*.keras
+*.h5
+*.json
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac and system files
+.DS_Store
+Thumbs.db
